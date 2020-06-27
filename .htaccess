@@ -1,0 +1,17 @@
+RewriteEngine on
+
+# Меняем динамический адрес поста в блоге на красивый статический
+# Статья формируеся динамически с помощью скрипта 
+# post.php?url=... где ...- адрес страницы в БД
+# с помощью выражения ниже меняем url используя 
+# переменную содержащую имя поста в БД
+
+RewriteRule ^blog/(.*)\.html$ blog/post.php?url=$1
+
+RewriteCond %{HTTP_HOST} ^www.nadookna\.com$ [NC]
+RewriteRule ^(.*)$ http://nadookna.com/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*(default|index|main)\.(html|php|htm)\ HTTP/ [NC]
+RewriteRule ^(([^/]+/)*)(default|main|index)\.(html|php|htm)$ http://nadookna.com/$1 [L,R=301]
+
+ErrorDocument 404 /404.php

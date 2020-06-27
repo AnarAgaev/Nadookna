@@ -1,0 +1,11 @@
+.datepicker{
+    width: 200px;
+	text-align: left;
+	float: left;
+	margin: 7px 0 0;
+}
+.datepicker_conteiner{
+    width: calc(80% + 30px);
+	overflow: hidden;
+    margin: 0 auto;
+}

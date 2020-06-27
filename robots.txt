@@ -1,0 +1,25 @@
+User-agent: *
+
+Disallow: /login.php
+Disallow: /addorg.php
+
+Disallow: /okonnye-kompanii.php?page=1
+Disallow: /okonnye-kompanii.php?page=2
+Disallow: /okonnye-kompanii.php?page=3
+Disallow: /okonnye-kompanii.php?page=4
+Disallow: /okonnye-kompanii.php?page=5
+Disallow: /okonnye-kompanii.php?page=6
+Disallow: /okonnye-kompanii.php?page=7
+Disallow: /okonnye-kompanii.php?page=8
+Disallow: /okonnye-kompanii.php?page=9
+Disallow: /okonnye-kompanii.php?page=10
+Disallow: /okonnye-kompanii.php?page=11
+Disallow: /okonnye-kompanii.php?page=12
+Disallow: /okonnye-kompanii.php?page=13
+Disallow: /okonnye-kompanii.php?page=14
+Disallow: /okonnye-kompanii.php?page=15
+Disallow: /okonnye-kompanii.php?page=16
+Disallow: /okonnye-kompanii.php?page=17
+Disallow: /okonnye-kompanii.php?page=18
+Disallow: /okonnye-kompanii.php?page=19
+Disallow: /okonnye-kompanii.php?page=20

@@ -1,0 +1,217 @@
+.background{
+	background: url('../img/fone_about.png') repeat;	
+}
+
+.title_vhod {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    margin: 70px auto 0;
+    z-index: 100;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.to_start{
+	display: block;
+    text-decoration: none;
+    color: #4285f4;
+    font: 600 70px 'Open Sans', sans-serif;
+    width: 100%;
+    position: relative;
+	text-align: center;
+}
+
+img.headimg{
+	display: block;
+	margin: 40px auto 10px;
+}
+
+h1.tit_text {
+    margin: 0 auto;
+    text-align: center;
+    font: 600 50px/1.2 'Roboto', Arial;
+    color: #4285f4;
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.nameuser{
+	margin: 20px auto 0;
+    text-align: center;
+    font: 600 44px/1.2 'Roboto', Arial;
+    color: #888;
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.citydate{
+	margin: 5px auto 0;
+    text-align: center;
+    font: 600 22px/1.2 'Roboto', Arial;
+    color: #888;
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 0 20px;
+	margin-bottom: 30px;
+}
+
+.phone{
+	margin: 30px auto 50px;
+    text-align: center;
+    font: 600 60px/1.2 'Roboto', Arial;
+    color: #4285f4;
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 0 20px;
+	background-color: #f3f3f3;
+	padding: 20px 0;
+	border: 7px #e5e5e5 dashed;
+}
+
+.form__by-tender {
+	width: 100%;
+    max-width: 790px;
+    position: relative;
+    overflow: hidden;
+	margin: 40px auto 70px;
+    text-align: center;
+    font: 600 30px/1.2 'Roboto', Arial;
+    color: #4285f4;
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 40px 0;
+	background-color: #f3f3f3;
+	border: 7px #e5e5e5 dashed;
+	box-sizing: border-box;
+}
+
+.form__title {
+	color: #4285f4;
+}
+
+.form__subtitle {
+	font-size: 17px;
+    font-weight: normal;
+    margin: 5px auto;
+    max-width: 95%;
+    line-height: 1.3;
+}
+
+.form__by-tender span {
+	display: block;
+}
+
+.form__desc {
+	font-size: 16px;
+    font-weight: bold;
+    margin: 21px auto 0;
+    max-width: 60%;
+    line-height: 1.3;	
+}
+
+.form_btn-submit {
+	display: block;
+    text-decoration: none;
+    width: 270px;
+    background-color: #4285f4;
+    color: #fff;
+    text-align: center;
+    font: 600 20px/53px Arial, Vrinda, sans-serif;
+    position: relative;
+    margin: 30px auto 10px;
+    transition: all .3s;
+    cursor: pointer;
+    height: 53px;
+}
+
+.form_btn-submit:hover {
+	background-color: #0072ff;
+}
+
+.form__by-tender label input {
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important;
+	-webkit-clip-path: inset(50%) !important;
+	clip-path: inset(50%) !important;
+	height: 1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	white-space: nowrap !important;
+}
+
+.form__question-title {
+	font-size: 23px;
+	margin-top: 30px;
+}
+
+.form__by-tender label {
+	display: block;
+	width: 160px;
+	max-width: 80%;
+	margin: 10px auto;
+	font-size: 17px;
+	text-align: left;
+	cursor: pointer;
+	position: relative;
+	padding-left: 23px;
+}
+
+.form__by-tender label .checker {
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 2px 2px 0 0;
+	background-color: #fff;
+	border: 2px solid #fff;
+	cursor: pointer;
+	box-shadow: 0 0 0 2px #ddd;
+	position: absolute;
+	left: 0;
+	top: 1px;
+}
+
+input[type="radio"]:checked + .checker {
+    background-color: #4285f4;
+}
+
+.more_tenders {
+	margin: 0 auto;
+    text-align: center;
+    font: 600 22px/1.2 'Roboto', Arial;
+    color: #888;
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 40px 20px 0;
+    margin-bottom: 30px;
+}
+.more_tenders a {
+	color: #4285f4;
+}
+.more_tenders a:hover {
+	text-decoration: none;
+}
+
+
+a.to_tenders{
+	display: block;
+	text-decoration: none;
+	width: 350px;
+	background-color: #4285f4;
+	color: #fff;
+	text-align: center;
+	font:600 22px/60px Arial, Vrinda, sans-serif;
+	position: relative;
+	margin: 10px auto 0;
+}
+a.to_tenders:hover{background-color: #0072ff;}

@@ -1,0 +1,56 @@
+﻿img.img_les_four{
+	display: block;
+	position: relative;
+	margin: 90px auto 70px;
+	width: 700px;
+	height: 400px;
+}
+.otkos{top: 298px; left: 231px;}
+.podok{top: 685px; left: 94px;}
+.zamok{top: 680px; left: 374px;}
+.moskit{top: 288px; left: 585px;}
+.otliv{top: 685px; left: 735px;}
+#otkos{top: 240px; left: 470px;}
+#podok{top: 280px; left: 470px;}
+#zamok{top: 230px; left: 540px;}
+#moskit{top: 230px; left: 60px;}
+#otliv{top: 280px; left: 55px;}
+.text_kursiv{
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 140%;
+	text-align: center;
+	color: #444;
+	position: absolute;
+}
+div.text_left{top: 400px; left: 20px;}
+div.text_right{top: 400px; left: 860px;}
+div.text_left_ex{top: 220px; left: 40px;}
+div.text_right_ex{top: 220px; left: 770px;}
+img.arr_left{position: absolute; top: 45px; left: 40px;}
+img.arr_right{position: absolute; top: 45px; left: -20px;}
+
+
+
+
+/* Настраиваем тест  */
+
+img.img_ex_four{
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	width: 600px;
+	height: 400px;
+	top: 115px;
+}
+.sel_otkos{position:absolute; top:110px; left:90px;}
+.sel_podok{position:absolute; top:470px; left:100px;}
+.sel_zamok{position:absolute; top:456px; left:365px;}
+.sel_moskit{position:absolute; top:110px; left:537px;}
+.sel_otliv{position:absolute; top:469px; left:640px;}
+.err_otkos{top:110px; left:-28px;}
+.err_podok{top:470px; left:-20px;}
+.err_zamok{top:456px; left:535px;}
+.err_moskit{top:110px; left:705px;}
+.err_otliv{top:469px; left:808px;}

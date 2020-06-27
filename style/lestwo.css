@@ -1,0 +1,93 @@
+﻿img.img_les_two{
+	display: block;
+	position: relative;
+	width: 600px;
+	height: 600px;
+	margin: 65px auto 50px;
+}
+.razdv{top: 290px; left: 53px;}
+.otk{top: 290px; left: 521px;}
+.pov{top: 703px; left: 725px;}
+.pov_otk{top: 840px; left: 435px;}
+.gluh{top: 665px; left: 93px;}
+.b_color {color: #2573D2}
+div.about_razdv{
+	width: 700px;
+	height: 460px;
+	position: absolute;
+	z-index: 300;
+	display: none;
+	top: 330px; 
+	left: calc(50% - 350px);
+	border: 40px solid rgba(0,0,0,.3);
+}
+h2.top_about_razdv{
+	width: 700px;
+	height: 80px;
+	position: relative;
+	background-color: #fff;
+	text-align: center;
+	color: #797979;
+	font: 400 19px/80px 'Open Sans', Arial;
+	display: block;
+}
+div.txt_about_razdv{
+	width: 290px;
+	height: 320px;
+	background-color: #f3f3f3;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-left-radius: 3px;
+	padding: 30px;
+	text-align: left;
+	color: #444;
+	font-family: Arial, Vrinda, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+div.img_razdv{
+	width: 350px;
+	height: 360px;
+	background-color: #f3f3f3;
+	text-align: center;
+	position: absolute;
+	top: 80px;
+	right: 0;
+	padding-top: 20px;
+}
+div.txt_img_razdv{
+	position: absolute;
+	top: 55px;
+	left: 25px;
+	font: 18px Arial, Vrinda, sans-serif;
+}
+#otk{top: 360px; left: 0;}
+#povor{top: 335px; left: 0;}
+#gluh{top: 325px; left: 515px;}
+#pov_otk{top: 335px; left: 0;}
+
+
+
+
+
+/* Настраиваем тест  */
+
+
+
+img.img_ex_two{
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	width: 600px;
+	height: 400px;
+	top: 115px;
+	left: 10px;
+}
+.sel_otk{position:absolute; top:120px; left:95px;}
+.sel_gluh{position:absolute; top:475px; left:70px;}
+.sel_dvig{position:absolute; top:138px; left:647px;}
+.sel_povor{position:absolute; top:475px; left:386px;}
+.err_otk{top:120px; left:-25px;}
+.err_gluh{top:475px; left:-50px;}
+.err_dvig{top:137px; left:818px;}
+.err_povor{top:475px; left:558px;}

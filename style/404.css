@@ -1,0 +1,101 @@
+/* *********************       Цифрф 404 в шапке страницы        ********************* */
+.err404{
+	width: 100%;
+	text-align: center;
+	font: 700 120px/1 'Roboto', Arial;
+    color: #4285f4;
+	padding: 20px;
+}
+
+
+
+/* *********************       Хлебные крошкни        ********************* */
+.breadCrumbs{
+	background-color: #f3f3f3;
+	padding: 0 5px 0 15px;
+	margin-bottom: 20px;
+	float: left;
+	position: relative;
+	font: 14px/30px Arial, sans-serif;
+    color: #2573D2;
+}
+a.breadCrumbs{
+    font: 700 14px/30px Arial, sans-serif;
+    color: #2573D2;
+    text-decoration: none;
+	padding: 0 5px 0 0;
+	margin: 0;
+	float: none;
+}
+a.breadCrumbs:hover{text-decoration: underline;}
+
+.trigBredCrumbs{
+	width: 0;
+	height: 0;
+	border-top: 30px solid #f3f3f3; 
+	border-right: 25px solid transparent;
+	position: absolute;
+	right: -25px;
+	top:0;
+}
+
+/* *********************       Шапка контента        ********************* */
+
+.title_col {
+	width: 100%;
+	max-width: 600px;
+    position: relative;
+    margin: 60px auto 0 auto;
+    z-index: 100;
+    overflow: hidden;
+    zoom: 1;
+}
+
+div.img_tit {
+    width: 130px;
+    height: 110px;
+    position: relative;
+    margin: 0 auto;
+}
+
+h1.tit_text {
+    margin: 20px auto 0;
+    text-align: center;
+    font: 700 44px/1 'Roboto', Arial;
+    color: #4285f4;
+    position: relative;	
+    display: block;
+    text-align: center;
+	padding: 0 20px;
+}
+
+p.cont_tit_text {
+    font:14px/18px Arial, sans-serif;
+    display: block;
+    text-align: left;
+    padding: 20px;
+}
+
+
+a.for_txt {
+    font: 14px Arial, sans-serif;
+    color: #2573D2;
+    text-decoration: underline;
+}
+a.for_txt:hover{text-decoration: none;}
+
+
+
+a.go_to_index {
+    max-width: 300px;
+    display: block;
+    margin: 30px auto 50px;
+	padding: 20px;
+    background: #4285f4;
+    font: 22px Arial, Vrinda, sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+}
+a.go_to_index:hover{background-color: #0072ff;}

@@ -1,0 +1,764 @@
+﻿/* Убираем кнопку обратного звонка т.к. на странице размедения тендера на месте кнопки будет плюс (кнопка добавления окна) */
+#zcwMiniButton,#colme,#colMeOk{display: none !important;}
+
+.no_wins {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    margin: 60px auto 0 auto;
+    z-index: 100;
+    overflow: hidden;
+}
+
+._tender {
+    background: url(../img/addorg.png) 0px 0px no-repeat;
+}
+
+.txt_add_tndr{
+	max-width: 300px;
+    display: block;
+    margin: 5px auto 0;
+}
+
+.add_tender {
+    max-width: 330px;
+	width: 90%;
+    margin: 20px auto 90px;
+    background: #4285f4;
+    font:600 24px/90px Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+	cursor: pointer;
+}
+.add_tender:hover{background-color: #0072ff;}
+
+
+/* Круглая кнопака с плюсом */
+.addActionButton{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	background-color: #4285f4;
+	z-index: 800;
+	cursor: pointer;
+	webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    -ms-border-radius: 999px;
+    -o-border-radius: 999px;
+    border-radius: 999px;
+}
+.addActionButton:hover{background-color: #0072ff;}
+
+
+/* Блок добавления окна к тендеру */
+div.block_for_create {
+    width: 100%;
+	max-width: 900px;
+    position: fixed;
+    z-index: 910;
+    left: 50%;
+    top: 50%;
+    margin-left: -450px;
+    margin-top: -300px;
+	background: url(../img/addtndr/bg_culc.png) repeat;
+	display: none;
+}
+
+div.top_for_create {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: #fff;
+}
+
+div.back {
+    width: 45px;
+	height: 45px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+	display: none;
+	z-index: 100;
+	background: url('../img/arradd.png') -0px -0px no-repeat;
+}
+div.back:hover{background: url('../img/arradd.png') -0px -45px no-repeat;}
+
+
+div.linebox{
+	width: 100%;
+    max-width: 480px;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    margin: 0 auto;
+}
+div.lineblock{
+    width: 33.3333333%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    float: left;
+}
+
+.connectline{
+	position: relative;
+	background-color: #dcd9cb;
+	width: 70%;
+	margin: 0 auto;
+	height: 1px;
+	top: 28px;
+}
+
+img.linetit{
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.linetxtactiv{
+	width: 100%;
+	text-align: center;
+	margin-top: 8px;
+	font: 600 14px/18px Arial, sans-serif;
+	color: #4285f4;
+}
+.linetxtpassive{
+	width: 100%;
+	text-align: center;
+	margin-top: 8px;
+	font: 400 14px/18px Arial, sans-serif;
+}
+
+
+
+
+
+div.bodystep{
+	width: 100%;
+	max-width: 750px;
+	position: relative;
+}
+
+
+/* Окно 1 */
+
+#step1{
+	overflow: hidden;
+	margin: 25px auto 14px;
+}
+div.win{
+	cursor: pointer;
+	position: relative;
+	float: left;
+	border: 2px solid #f3f3f3;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+div.win1{width: 88px; height: 130px;}
+div.win2{width: 166px; height: 130px; margin-left: 120px;}
+div.win3{width: 244px; height: 130px; margin-left: 120px;}
+div.win4{width: 166px; height: 214px; margin-top: 18px;}
+div.win5{width: 244px; height: 214px; margin-top: 18px; margin-left: 42px;}
+div.win6{width: 244px; height: 214px; margin-top: 18px; margin-left: 42px;}
+
+.win_parm{
+	padding: 4px;
+	margin-top: -2px;
+	margin-left: -2px;
+}
+.win_parm:hover{
+	padding: 2px;
+	border: 2px solid #4285f4;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+
+
+
+
+/* кнопка параметров и добавить окно в тенер */
+.body_btn{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.btn_tender{
+	width: 80%;
+	max-width: 360px;
+    height: 50px;
+    background: #4285f4;
+    font: 18px/50px Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+	cursor: pointer;
+	margin: 15px auto 25px;
+	padding: 0 20px;
+}
+.btn_tender:hover{background-color: #0072ff;}
+
+
+
+
+/* Окно 2 */
+
+#step2{
+	overflow: hidden;
+}
+
+.body_open{
+	width: 40%;
+	margin-left: 10%;
+	float: left;
+	position: relative;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.txt_body_open{
+	font: 600 16px 'Roboto', Arial, sans-serif;
+	color: #676767;
+}
+
+img.tip_open{
+	display: block;
+	position: relative;
+	cursor: pointer;
+}
+
+.tit_param{
+	font: 600 16px 'Roboto', Arial, sans-serif;
+    color: #676767;
+	display: none;
+}
+
+.input_razmer {
+	width: 80%;
+    max-width: 50px;
+	height: 30px;
+	position: absolute;
+	z-index: 100;
+}
+
+
+.body_param{
+	width: 50%;
+	position: relative;
+	overflow: hidden;
+	padding-top: 1px;
+}
+
+.param{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.param div{
+	font: 600 16px 'Roboto', Arial, sans-serif;
+	color: #676767;
+}
+
+
+.input_param {
+    width: 80%;
+	max-width: 100px;
+    margin-top: 15px;
+}
+
+
+
+/* Окно 3 */
+
+
+#step3{margin: 25px auto 0;}
+
+.block_step3{
+	width: 33.3333333%;
+	height: 185px;
+	position: relative;
+	float: left;
+}
+img.img_step3{
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+}
+.txt_step3{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font: 600 17px/50px 'Roboto', Arial, sans-serif;
+    color: #676767;
+	position: relative;
+}
+.input_step3{
+	width: 195px;
+	margin: 0 auto;
+	padding: 0;
+	cursor: pointer;
+}
+
+.open_input{
+	background-color:#4d90fe;
+	color: #fff;
+	border-bottom: none;
+}
+
+
+.body_select{
+    width: 195px;
+	margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.slide_select{
+    width: 193px;
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    position: relative;
+}
+#slide_otliv{top: -290px; z-index: 700;}
+#slide_otkos{top: -210px; z-index: 600;}
+#slide_podok{top: -250px; z-index: 500;}
+#slide_montage{top: -130px; z-index: 400;}
+#slide_moscit{top: -90px; z-index: 400;}
+#slide_zamok{top: -170px; z-index: 200;}
+#btnaddwin{z-index: 100;}
+
+.point_select {
+    width: 193px;
+    height: 40px;
+    text-align: center;
+    font: 14px/40px Arial, sans-serif;
+    cursor: pointer;
+    background-color: #fff;
+}
+.point_select:hover{background-color: #f4f4f4;}
+.top_border_point {border-top: 1px solid #e5e5e5;}
+
+
+#last_block_step3{margin-bottom: 14px;}
+
+
+
+
+
+
+
+
+
+/* Блок в который будем добавляеть созданные пользователем окна */
+.win_content{
+	width: 95%;
+	max-width: 800px;
+	overflow: hidden;
+	margin: 70px auto 0;
+	position: relative;
+}
+
+div.del_win {
+    width: 45px;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    font: bold 40px Arial;
+    color: #fff;
+	background-color: #999;
+    z-index: 100;
+}
+div.del_win:hover{background-color: #f3f3f3; color: #999;}
+
+.win_body{
+	width: 100%;
+	position: relative;
+	max-width: 800px;
+	overflow: hidden;
+	margin: 0 auto 50px;
+	padding: 40px 0;
+	background: url(../img/addtndr/bg_culc.png) repeat;
+}
+
+.img_body {
+    width: 300px;
+	position: absolute;
+    left: 80px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.img_body img{
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+
+.win_txt{
+	width: calc(100% - 470px);
+	overflow: hidden;
+	position: relative;
+	margin-left: 465px;
+	margin-bottom: 15px;
+}
+.params{
+	font: 15px/23px Arial, sans-serif;
+}
+.on_params{display: none;}
+span.tit_params{
+	font: 600 15px 'Roboto', Arial, sans-serif;
+	color: #4285f4;
+	padding-right: 7px;
+}
+
+.tit_pars{
+	font: 600 30px/34px 'Roboto', Arial, sans-serif;
+	margin-bottom: 17px;
+	margin-top: 12px;
+	padding-right: 20px;
+	color: #777;
+}
+
+.txt_param{
+	position: absolute;
+	font: 600 16px 'Roboto', Arial, sans-serif;
+	text-align: center;
+	left: 50%;
+}
+
+
+
+/* Настраиваем вопрос Имени и телефона */
+.title_tender_input{
+	width: 100%;
+	text-align: center;
+	font: 14px Arial, ans-serif;
+	margin-top: 20px;
+}
+.privacy_text {
+	padding: 0 30px;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 1.4;
+}
+.privacy_text  a {
+	font-size: 12px;
+	line-height: 1.4;
+}
+.txt_tender_input{
+	width: 90%;
+	text-align: center;
+	font:600 18px Arial, sans-serif;
+	margin: 0 auto;
+	color: #676767;
+}
+.tender_add_true{
+	font:600 18px Arial, sans-serif;
+	color: #676767;
+}
+.err{
+    width: 100%;
+    text-align: center;
+    color: #ff0000;
+    font: 15px/1.3 Arial, sans-serif;
+    display: none;
+	margin-top: 10px;
+}
+
+
+
+/* Вопрос и подсказки */
+span.ques{
+	color: #4285f4;
+    font-family: Arial, Vrinda, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 2px;
+    top: -2px;
+}
+span.ques:hover{color: #a1a198;}
+
+.param div{position: relative;}
+
+.tit_help_txt{
+	width: 90%;
+	text-align: center;
+	font: 600 18px 'Roboto', Arial, sans-serif;
+    color: #676767;
+	margin-top: 30px;
+	margin-left: 5%;
+	position: relative;
+}
+
+.akcent_help{
+	font: 600 16px/1.2 Arial, sans-serif;
+    color: #4285f4;	
+}
+div.btn_help_click{
+	width: 150px;
+	height: 40px;
+	background-color: #4285f4;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px rgba(0,0,0,0.1);
+	font: 600 15px/40px Arial, sans-serif;
+	position: relative;
+	margin: 0 auto 30px;
+	cursor: pointer;
+}
+div.btn_help_click:hover{background-color: #0072ff;}
+
+	#askCityTender {
+		display: none;
+	}
+
+.btnAskCity{
+    display: inline-block;
+    height: 40px;
+    background-color: #4285f4;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    font: 600 20px/40px Arial, Vrinda, sans-serif;
+    margin: 30px 0 0;
+    position: relative;
+    cursor: pointer;
+    padding: 0 33px;
+}
+.btnAskCity:hover{background-color: #0072ff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 920px){
+	div.block_for_create {
+		position: absolute;
+		left: 0;
+		top: 0;
+		margin-left: 0;
+		margin-top: 0;
+	}
+}
+
+
+
+@media (max-width: 800px){
+	.img_body {
+		width: 100%;
+		position: relative;
+		left: 0;
+		transform: translateY(0);
+		margin-top: 30px;
+	}
+	.win_txt {
+		width: 90%;
+		text-align: center;
+		margin: 60px auto 0;
+	}
+	.params {
+		width: 260px;
+		margin: 0 auto;
+		text-align: left;
+	}
+
+}
+
+
+
+
+
+@media (min-width: 770px){
+	#tit_vd,#tit_shd{display: none !important;}
+}
+
+@media (max-width: 770px){
+	div.win1{margin-left: 15%;}
+	div.win2{margin-left: 198px;}
+	div.win3{margin-top: 30px; margin-left: 15%;}
+	div.win4{margin-top: 30px; margin-left: 42px;}
+	div.win5,div.win6{margin-top: 30px; margin-left: calc(50% - 125px);}
+	
+	
+	/* настраиваем второй шаг */
+	
+	#step2{margin: 25px auto 0 !important;}
+	
+	.body_open,.body_param{
+		width: 100%;
+		margin-left: 0;
+		float: left;
+		position: relative;
+		text-align: center;
+		margin-bottom: 0;
+		overflow: hidden;
+	}
+	
+	.dsh{display: none;}
+	
+	.tip_open,#shirina,#visota_okna,#shirina_dveri,#visota_dveri{
+		position: relative !important; 
+		left: 0 !important; 
+		right: 0 !important; 
+		top: 0 !important; 
+		bottom: 0 !important; 
+	}
+	.input_razmer {
+		max-width: 100px;
+		height: 40px;
+		margin-top: 15px;
+		margin-bottom: 25px;
+	}
+	.tip_open{margin: 15px auto 30px auto !important;}
+	.tit_param{display: block;}
+
+	
+	.input_razmer,.input_param{max-width: 200px;}
+	
+	#kolvo{margin-bottom: 30px;}
+	
+	#shirina_dveri{margin-bottom: 25px !important;}
+}
+
+
+@media (max-width: 700px){
+	.block_step3{width: 50%;}
+}
+
+
+
+
+@media (max-height: 620px){
+	div.block_for_create {
+		position: absolute;
+		top: 0;
+		margin-top: 0;
+	}
+}
+
+
+
+
+@media (max-width: 600px){
+	.addActionButton {right: 10px; bottom: 20px;}
+	div.win1{margin-left: calc(50% - 46px);}
+	div.win3,div.win5,div.win6{margin-left: calc(50% - 125px);}
+	div.win2,div.win4{margin-top: 30px; margin-left: calc(50% - 85px);}
+	.tit_pars{font-size: 20px; line-height: 26px;}
+}
+
+@media (max-width: 540px){
+	#help_tender{
+		width: 90%; 
+		left: 5% !important;
+		top: 0 !important;
+		margin-top: 0 !important;
+		margin-left: 0 !important;
+	}
+}
+
+
+@media (max-width: 520px){
+	.txt_param{display: none;}
+	.on_params{display: block;}
+	.win_txt {margin: 30px auto 0;}
+}
+
+
+@media (max-width: 518px){
+	#nohave_win,#err_size,#delwin {
+		left: 50% !important; 
+		top: 50% !important;
+	}
+		#help_click {left: 50% !important; top: 50%;}
+
+}
+
+
+@media (max-width: 460px){
+	.connectline,img.linetit,.lbp{display: none;}
+	div.lineblock{width: 100%;}
+	.linetxtactiv{font-size: 26px; line-height: 28px; top: 15px; position: relative;}
+	.block_step3{width: 100%;}
+	.input_step3,.body_select{width: 210px;}
+	.slide_select,.point_select {width: 208px;}
+}
+
+
+@media (max-width: 440px){
+	.btn_tender{
+		height: auto;
+		line-height: 24px;
+		padding: 20px;
+	}
+	#help_click {
+		width: 90%;
+		left: 5% !important;
+		margin-left: 0 !important;
+	}
+	
+	
+	
+	
+	
+}
+
+@media (max-width: 380px){
+	#nohave_win,#err_size,#delwin {
+		width: 90%;
+		left: 5% !important;
+		margin-left: 0 !important;
+	}
+}
+
+
+
+
+
+@media (max-width: 370px){
+	#tl2{
+		font-size: 20px; 
+		line-height: 22px; 
+		top: 17px; 
+		position: relative;
+	} 
+	.add_tender{
+		font-size: 20px;
+		line-height: 70px;
+	}
+	#btn_help_left {left: calc(50% - 100px) !important;}
+	#btn_help_right {left: calc(50% - 80px) !important;}
+}
+
+
+
+
+

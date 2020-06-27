@@ -1,0 +1,56 @@
+﻿img.img_les_three{
+	display: block;
+	position: relative;
+	margin: 70px auto 80px;
+	width: 600px;
+	height: 400px;
+}
+.steklo{top:425px; left:97px;}
+.profil{top:540px; left:47px;}
+.armir{top:677px; left:161px;}
+.stek_kam1{top:360px; left:761px;}
+.stek_kam2{top:418px; left:752px;}
+.prof_kam{top:680px; left:647px;}
+
+
+#steklo{top:220px; left:478px;}
+#profil{top:210px; left:478px;}
+#armir{top:250px; left:478px;}
+#stek_kam{top:265px; left:42px;}
+#prof_kam{top:222px; left:42px;}
+a.a_for_course{
+	color: #2573D2;
+	text-decoration: none;
+}
+
+
+
+
+/* Настраиваем тест  */
+
+img.img_ex_three{
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	width: 600px;
+	height: 400px;
+	top: 120px;
+}
+.sel_steklop{position:absolute; top:252px; left:80px;}
+.sel_profil{position:absolute; top:352px; left:52px;}
+.sel_armir{position:absolute; top:465px; left:133px;}
+.sel_kam_stek{position:absolute; top:254px; left:695px;}
+.sel_kam_prof{position:absolute; top:401px; left:678px;}
+.err_steklop{top:249px; left:-42px;}
+.err_profil{top:349px; left:-70px;}
+.err_armir{top:462px; left:12px;}
+.err_kam_stek{top:250px; left:866px;}
+.err_kam_prof{top:397px; left:850px;}
+
+div.ris{
+	position: absolute;
+	color: #2573D2;
+	font: 700 20px Arial, Vrinda, sans-serif;
+}
+.ris1{top: 150px; left: 170px;}
+.ris2{top: 150px; right: 170px;}

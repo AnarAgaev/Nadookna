@@ -1,0 +1,87 @@
+img.imgBrend{
+	position: relative;
+	margin: 50px auto 30px;
+	display: block;
+}
+p.aboutBrend{
+	max-width: 800px;
+	font: 15px/1.4 Arial, sans-serif;
+    display: block;
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.model{
+	max-width: 800px;
+	font: 15px/1.4 Arial, sans-serif;
+	position: relative;
+	margin: 30px auto 50px;
+}
+
+h2.titelModel{
+    font: 700 40px/1.1 'Roboto', Arial;
+    color: #4285f4;
+    position: relative;
+    display: block;
+	padding-left: 20px;
+	margin-top: 50px;
+}
+
+.smollTitelModel{
+    font: 20px Arial, sans-serif;
+    color: #4285f4;
+	display: inline-block;
+}
+
+img.imgModel{
+	position: relative;
+	display: block;
+	float: right;
+	margin-top: -20px;
+	margin-left: 10px;
+}
+.imgModel.plafen-model {
+	margin-top: -77px;
+}
+ul.optionsModel{
+	display: block;
+	position: relative;
+	margin-top: 20px;
+	padding-bottom: 50px;
+}
+.optionsModel li{
+	list-style-type: none;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+li b{color: #4285f4; font-weight: normal;}
+
+
+.plusTop{top: -63px;}
+.plusTop40{top: -40px;}
+.plusBtn20{padding-bottom: 40px; top: 20px;}
+
+.plusButtom100{margin-bottom: 100px;}
+
+.plusButtom70{margin-bottom: 70px;}
+
+@media (max-width: 550px){
+	img.imgModel{
+		float: none;
+		margin: 0 auto 20px auto;
+	}
+	ul.optionsModel{padding-bottom: 0;}
+	.plusTop, .plusTop40{top: 0;}
+	.plusButtom100{margin-bottom: 0px;}
+	.plusButtom70{margin-bottom: 0px;}
+	.plusBtn40{top: 0px;}
+}
+
+@media (max-width: 660px){
+	p.aboutBrend {font-size: 17px;}
+	p.aboutBrend a {font-size: 17px;} 
+
+}
+
